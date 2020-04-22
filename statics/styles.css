@@ -1,0 +1,12 @@
+
+button[data-card-filter^="label:e/"]>span {
+  display: none  !important;
+}
+
+button[data-card-filter^="label:e/"], button[data-card-filter].title-estimate {
+  min-width: 20px;
+  border-radius: 10px !important;
+  padding: 0 10px !important;
+  margin-top: 0px !important;
+}
+
