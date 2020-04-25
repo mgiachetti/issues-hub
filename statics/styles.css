@@ -1,12 +1,27 @@
 
-button[data-card-filter^="label:e/"]>span {
+.project-column button[data-card-filter^="label:e/"]>span {
   display: none  !important;
 }
 
-button[data-card-filter^="label:e/"], button[data-card-filter].title-estimate {
+button[data-card-filter].title-estimate {
+  margin-top: 0px !important;
+}
+
+.project-column button[data-card-filter] {
+  order: 1;
+  margin-right: 4px !important;
+}
+
+.project-column button[data-card-filter^="label:e/"], button[data-card-filter].title-estimate {
   min-width: 20px;
   border-radius: 10px !important;
   padding: 0 10px !important;
-  margin-top: 0px !important;
+  order: 0 !important;
 }
+
+.project-column .labels.d-block {
+  display: flex !important;
+}
+
+
 
