@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "Issues Hub",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Add Github issues estimate capabilities",
   "icons": {
     "16": "assets/icon16.png",
