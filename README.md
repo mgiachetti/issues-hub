@@ -1,5 +1,5 @@
 # Issues Hub
-Is a chrome extension to add github issues the estimate capabilities.
+Is a [chrome extension](https://chrome.google.com/webstore/detail/issues-hub/gjpcbkmnpfnpmghmiohfcbhckigmloic) to add github issues the estimate capabilities.
 
 ![Image description](./imgs/usage.gif)
 
