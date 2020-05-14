@@ -6,7 +6,8 @@
     for (let column of columns) {
       const title = column.querySelector('button.column-menu-item');
       const labels = [...column.querySelectorAll(`button[${CARD_LABEL_ATTR}^="label:e/"]`)];
-      const estimateCount = labels.map(l => +l.getAttribute(CARD_LABEL_ATTR).match(/\d+/)[0]).reduce((sum, w) => sum + w, 0);
+      const estimateCount = labels.map(l => +(!l.closest(".issue-card.d-none") ? l.getAttribute(CARD_LABEL_ATTR).match(/\d+/)[0] : 0)).reduce((sum, w) => sum + w, 0);
+      console.log(estimateCount);
       let estimateElement = title.querySelector(`.${ESTIMATE_TITLE_CLASS}`);
 
       if (estimateCount === 0) {
